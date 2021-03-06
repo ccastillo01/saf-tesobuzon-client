@@ -1,0 +1,24 @@
+{
+    "name": "saf/tesobuzon-client",
+    "description": "Cliente teso-buzón de la SAF",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Carlos Castillo",
+            "email": "cacastillo@finanzas.cdmx.gob.mx"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Saf\\TesobuzonClient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Saf\\TesobuzonClient\\Test\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
